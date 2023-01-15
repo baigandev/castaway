@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    background: #232222;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*#HEADER*/
+
+#header{
+    padding: 20px 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h1{
+    font-weight: 700;
+    color: white;
+}
+.header-nav a{
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin: 0 20px;
+    transition: .4s;
+}
+.header-nav a:hover{
+    color: green;
+}
+
+/*#HERO*/
+
+#hero{
+    padding: 50px 0;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-title h1{
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    width: 526px;
+    padding-bottom: 160px;
+}
+.hero-title h1 span{
+    font-weight: 900;
+    font-size: 71px;
+}
+.hero-title h5{
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.hero-logo img{
+    margin: 0 10px 0 0;
+}
+#blocks{
+    padding: 50px 0;
+}
+.blocks-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.blocks-title h1{
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+}
+.blocks-title button{
+    padding: 15px 30px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    background: #118DA8;
+    border-radius: 6px;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1300px;
+    height: 545px;
+    background: #090909;
+    border-radius: 32px;
+    margin-bottom: 30px;
+}
+.block img{
+    border-radius: 3px;
+    margin: 0 25px;
+}
+.block-title h5{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 73px;
+    height: 27px;
+    background: #191919;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.block-title h3{
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #118DA8;
+}
+.block-title h1{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+}
+.block-title p{
+    width: 757px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px 0 20px 0;
+}
+.block-title button{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #118DA8;
+    border-radius: 6px;
+    padding: 15px 35px;
+}
+#cards{
+    padding: 50px 0;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.icon {
+    width: 112px;
+    height: 112px;
+    background:#118DA8;
+    border-radius: 400px;
+    transform: rotate(-90deg);
+}
+.text h5{
+    font-weight: 400;
+    font-size: 18px;
+    color: #118DA8;
+    padding: 15px 0;
+}
+.text h1{
+    font-weight: 400;
+    font-size: 65px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.text p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.cards img{
+    margin: 0 20px;
+}
+#tablet{
+    padding: 50px 0;
+}
+.tablet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #090909;
+    width: 1300px;
+    height: 387px;
+    border-radius: 10px;
+}
+.text-tablet h5{
+    font-weight: 400;
+    font-size: 18px;
+    color: #118DA8;
+    padding: 15px 30px;
+}
+.text-tablet h1{
+    font-weight: 400;
+    font-size: 65px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    width: 431px;
+}
+.box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px 45px;
+}
+.box input{
+    background: #191919;
+    border: 1px solid #191919;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.7);
+    width: 522px;
+    height: 82px;
+    margin: 15px 0;
+}
+.box button{
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 15px 10px;
+    background: #118DA8;
+    border-radius: 6px;
+}
+#star{
+    padding: 50px 0;
+}
+.blocks-stars{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.block-star{
+    background: #090909;
+    width: 360px;
+    height: 301px;
+    border-radius: 10px;
+    padding: 20px 0 0 20px;
+    margin-bottom: 20px;
+}
+.star{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    width: 18px;
+    height: 18px;
+    background: yellow;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    padding: 30px 0 0 20px;
+}
+.block-star p{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+    width: 313px;
+    padding: 15px 20px;
+}
+.block-star h5{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 15px 20px;
+}
+#footer{
+    padding: 50px 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer h1{
+     font-weight: 700;
+     color: white;
+ }
+.icon-logo{
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.word{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 60px;
+}
+.word1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 110px;
+}
+.word span{
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.word1 span{
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
